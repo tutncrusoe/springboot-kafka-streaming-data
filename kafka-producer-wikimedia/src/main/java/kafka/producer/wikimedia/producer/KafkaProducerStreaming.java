@@ -14,9 +14,9 @@ import java.net.URI;
 import java.util.concurrent.TimeUnit;
 
 @Service
-public class WikimediaProducer {
+public class KafkaProducerStreaming {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(WikimediaProducer.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(KafkaProducerStreaming.class);
 
     @Autowired
     private KafkaTemplate<String, String> kafkaTemplate;
